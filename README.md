@@ -47,7 +47,7 @@ Release除源码外默认发布两个文件:
 *_release_single.exe | 程序本体单文件版| 可能会出现普通版本不存在的特有Bug
 *_release.zip | 程序本体压缩包 | 可执行主程序为urw_autotest.exe
 
-你也可以通过[PyInstaller]()或[Nuitka](https://pypi.org/project/Nuitka/)进行项目的可执行程序打包。
+你也可以通过[PyInstaller](https://pypi.org/project/pyinstaller/)或[Nuitka](https://pypi.org/project/Nuitka/)进行项目的可执行程序打包。
 
 ---
 
