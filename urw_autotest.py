@@ -169,7 +169,7 @@ class selfForm(QMainWindow, Ui_Dialog):
         
         for i in self.drive_type_list.keys():
             self.output.append(f"{i}: {(self.drive_type_list)[i]['drive_type_str']}")
-            if (int((self.drive_type_list)[i]['drive_type']) != 3) and (int((self.drive_type_list)[i]['drive_type']) != 6):
+            if (int((self.drive_type_list)[i]['drive_type']) != 3) and (int((self.drive_type_list)[i]['drive_type']) != 2):
                 self.check_box_map[i].setEnabled(False)
     
         self.monitor_thread = WorkerThread()

@@ -7,9 +7,7 @@ import win32com.client
 import time
 import os
 import wmi
-from pathlib import Path
 import glob
-import wexpect
 
 urwtest_path = os.path.join(os.getcwd(),'urwtest_v18.exe')
 
